@@ -1,7 +1,13 @@
 # PDF OCR Toolkit
 ## Author: Garvan Doyle
 ## Email: [garvandoyle@gmail.com](mailto:garvandoyle@gmail.com)
-## Github: [GitHub](https://www.github.com/GarvanD)
+
+### Setup
+- Use 7zip to unzip the packages file
+- File Structure:
+  Parent Folder:
+  -----Packages
+  -----pdf_toolkit.py
 
 ### Basic Usage:
 
