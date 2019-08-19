@@ -36,3 +36,12 @@ title = HOCR_TOOLKIT.findTextById(reinforcement_line,soup,100,500)
 frameworks_used = HOCR_TOOLKIT.findTextById(reinforcement_line,soup,900,1200)
 
 print("Project Title: %s\nFrameworks Used: %s" % (title,frameworks_used))
+
+#Edit Line Number and use same x bounds
+reinforcement_line = HOCR_TOOLKIT.editLineNumber(reinforcement_line,6)
+
+#Return string of line by x-coordinate bounds
+title = HOCR_TOOLKIT.findTextById(reinforcement_line,soup,100,500)
+frameworks_used = HOCR_TOOLKIT.findTextById(reinforcement_line,soup,900,1200)
+
+print("Project Title: %s\nFrameworks Used: %s" % (title,frameworks_used))
