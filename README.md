@@ -14,7 +14,7 @@
 
 #### Example PDF:
 ##### The following PDF was chosen as it shows some limitations to the OCR engine as it struggles with none standard fonts
-![Example PDF](PDF_Example\Resume-1.png "Resume.png")
+![Example PDF](https://github.com/GarvanD/PDF-Toolkit/blob/master/PDF_Example/Resume-1.png "Resume.png")
 #### How to convert PDF to HOCR:
 
 ```python
@@ -34,7 +34,7 @@ line_1 = HOCR_TOOLKIT.findId("Roles",soup,["Roles","Projects"])
 line_2 = HOCR_TOOLKIT.findId("Awards",soup,["Awards"])
 print(line_1,line_2)
 ```
-![Example of Lines](PDF_Example\find_lines.png "Lines-Example.png")
+![Example of Lines](https://github.com/GarvanD/PDF-Toolkit/blob/master/PDF_Example/find_lines.png "Lines-Example.png")
 ```python
 line_1_21 line_1_43
 ```
@@ -101,7 +101,7 @@ title = HOCR_TOOLKIT.findTextById(reinforcement_line,soup,100,500)
 frameworks_used = HOCR_TOOLKIT.findTextById(reinforcement_line,soup,900,1200)
 
 ```
-![Example of Searching By Coordinates](PDF_Example\searching-by-coordinates.png "Example of Searching By Coordinates")
+![Example of Searching By Coordinates](https://github.com/GarvanD/PDF-Toolkit/blob/master/PDF_Example/searching-by-coordinates.png "Example of Searching By Coordinates")
 ```python
 print("Project Title: %s\nFrameworks Used: %s" % (title,frameworks_used))
 ```
