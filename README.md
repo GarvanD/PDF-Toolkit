@@ -109,6 +109,20 @@ print("Project Title: %s\nFrameworks Used: %s" % (title,frameworks_used))
 Project Title: Reinforcement Learning Game Agent
 Frameworks Used: Python, C#, OpenCy, Tensorflow
 ```
+
+#### Editing Line ID
+```python
+reinforcement_line = HOCR_TOOLKIT.editLineNumber(reinforcement_line,6)
+
+title = HOCR_TOOLKIT.findTextById(reinforcement_line,soup,100,500)
+frameworks_used = HOCR_TOOLKIT.findTextById(reinforcement_line,soup,900,1200)
+
+print("Project Title: %s\nFrameworks Used: %s" % (title,frameworks_used))
+```
+```
+Project Title: NLP Analysis of Legal Documents.
+Frameworks Used: Python, NLTK, Keras
+```
 #### Known Exceptions:
 - PDF file names cannont contain whitespace, this is due to the format in which the compiled packages accept input.
 - None standard font's can be troublesome, see example PDF above.
